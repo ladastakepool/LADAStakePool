@@ -76,10 +76,10 @@ As a pool owner, you can start to mint a NFT follow the steps below
         cardano-cli query utxo --address $address --mainnet
     Your output should look something like this (fictional example):
 
-                         TxHash                                 TxIx        Amount
+                         TxHash                                      TxIx        Amount
 --------------------------------------------------------------------------------------
 
-b35a4ba9ef3ce21adcd6879d08553642224304704d206c74d3ffb3e6eed3ca28     0        1000000000 lovelace<br/>
+    b35a4ba9ef3ce21adcd6879d08553642224304704d206c74d3ffb3e6eed3ca28     0        1000000000 lovelace<br/>
     
     Since we need each of those values in our transaction, we will store them individually in a corresponding variable.
     txhash="insert your txhash here"<br/>
