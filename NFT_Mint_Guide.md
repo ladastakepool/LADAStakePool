@@ -82,21 +82,21 @@ As a pool owner, you can start to mint a NFT follow the steps below
     b35a4ba9ef3ce21adcd6879d08553642224304704d206c74d3ffb3e6eed3ca28     0        1000000000 lovelace<br/>
     
     Since we need each of those values in our transaction, we will store them individually in a corresponding variable.
-    txhash="insert your txhash here"<br/>
-    txix="insert your TxIx here"<br/>
-    funds="insert Amount in lovelace here"<br/>
-    policyid=$(cat policy/policyID)<br/>
+    txhash="insert your txhash here"
+    txix="insert your TxIx here"
+    funds="insert Amount in lovelace here"
+    policyid=$(cat policy/policyID)
 
 7. Check if all of the other needed variables for the transaction are set:
 
-        echo $fee<br/>
-        echo $address<br/>
-        echo $output<br/>
-        echo $tokenamount<br/>
-        echo $policyid<br/>
-        echo $tokenname<br/>
-        echo $slotnumber<br/>
-        echo $script<br/>
+        echo $fee
+        echo $address
+        echo $output
+        echo $tokenamount
+        echo $policyid
+        echo $tokenname
+        echo $slotnumber
+        echo $script
 
 8. Run this command to generate a raw transaction file.
 
