@@ -14,7 +14,7 @@
 2. Setup guides
     - Follow the setup guide from CoinCashEw at the website<br/>
     https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node
-    - Prepare at least 502 ADA to register the pool, then you can pledge it with the ADA amount up to you
+    - Prepare at least 502 ADA to register the pool, then you can pledge it with the ADA amount depend on your pledge setting
     - After register, you can verify your pool with</br>
         . Monitoring tools as gListView, Dashboard, ...</br>
         . Real active websites</br>
