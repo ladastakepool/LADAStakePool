@@ -52,7 +52,7 @@ As a pool owner, you can start to mint a NFT follow the steps below
         4.3
         Example: 
         https://ipfs.blockfrost.dev/ipfs/Qmb4XwM8qGXSfT6uXx4kAyeiWd9i2cQ4bUYaTimDoGfKCz<br/>
-        ![LADA NFT](images/LADANFT.jpg)
+        ![LADA NFT](images/LadaNFT.jpg)
         <br/>
         4.4 Documents<br/>
         https://docs.blockfrost.io/#tag/IPFS-Add about 100 MB free<br/>
