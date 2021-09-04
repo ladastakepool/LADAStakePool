@@ -51,7 +51,7 @@ As a pool owner, you can start to mint a NFT follow the steps below
         curl "https://ipfs.blockfrost.io/api/v0/ipfs/add" -X POST -H "project_id: <API Key>" -F "file=@./theNFT.jpg"<br/>
         4.3
         Example: 
-        https://ipfs.blockfrost.dev/ipfs/Qmb4XwM8qGXSfT6uXx4kAyeiWd9i2cQ4bUYaTimDoGfKCz<br/>
+        https://ipfs.blockfrost.dev/ipfs/QmbXZmv67p2JhEXCYbm3wxKuEGgKcp54T1gBrSUKvnmRFk<br/>
         ![LADA NFT](images/LadaNFT.jpg)
         <br/>
         4.4 Documents<br/>
