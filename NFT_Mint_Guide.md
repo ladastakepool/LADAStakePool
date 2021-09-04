@@ -48,12 +48,10 @@ As a pool owner, you can start to mint a NFT follow the steps below
         4.1 Login to blockfrost.io and create your project<br/>
         4.2 Use the API Key of the project to push the image file for your NFT,
         by the command<br/>
-        curl "https://ipfs.blockfrost.io/api/v0/ipfs/add" -X POST -H "project_id: <API Key>" -F "file=@./theNFT.jpg"
-        
+        curl "https://ipfs.blockfrost.io/api/v0/ipfs/add" -X POST -H "project_id: <API Key>" -F "file=@./theNFT.jpg"<br/>
         4.3 Documents<br/>
         https://docs.blockfrost.io/#tag/IPFS-Add about 100 MB free<br/>
-        https://pinata.cloud/documentation#GettingStarted about 1GB free
-        
+        https://pinata.cloud/documentation#GettingStarted about 1GB free<br/>
         4.4
         Example: 
         https://ipfs.blockfrost.dev/ipfs/Qmb4XwM8qGXSfT6uXx4kAyeiWd9i2cQ4bUYaTimDoGfKCz
@@ -76,19 +74,18 @@ As a pool owner, you can start to mint a NFT follow the steps below
 6. Build the transaction with the metadata<br/>
 
         cardano-cli query utxo --address $address --mainnet
-Your output should look something like this (fictional example):
+    Your output should look something like this (fictional example):
 
                          TxHash                                 TxIx        Amount
 --------------------------------------------------------------------------------------
 
 b35a4ba9ef3ce21adcd6879d08553642224304704d206c74d3ffb3e6eed3ca28     0        1000000000 lovelace<br/>
     
-            Since we need each of those values in our transaction, we will store them individually in a corresponding variable.
-            
-            txhash="insert your txhash here"<br/>
-            txix="insert your TxIx here"<br/>
-            funds="insert Amount in lovelace here"<br/>
-            policyid=$(cat policy/policyID)<br/>
+    Since we need each of those values in our transaction, we will store them individually in a corresponding variable.
+    txhash="insert your txhash here"<br/>
+    txix="insert your TxIx here"<br/>
+    funds="insert Amount in lovelace here"<br/>
+    policyid=$(cat policy/policyID)<br/>
 
 7. Check if all of the other needed variables for the transaction are set:
 
@@ -112,7 +109,7 @@ b35a4ba9ef3ce21adcd6879d08553642224304704d206c74d3ffb3e6eed3ca28     0        10
         --metadata-json-file metadata.json  \
         --invalid-hereafter $slotnumber \
         --out-file matx.raw <br/>
-As with every other transaction, we need to calculate the fee and the output and save them in the corresponding variables (currently set to zero).
+    As with every other transaction, we need to calculate the fee and the output and save them in the corresponding variables (currently set to zero).
 
 9. Set the $fee variable.
 
